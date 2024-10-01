@@ -1,0 +1,21 @@
+.odd{
+    background-color: rgb(255, 179, 222);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+.cooler{
+    font-size: 24px;
+}
+
+#one-id{
+    color: #0066cc;
+    font-size: 36px;
+    font-family: '0xProto Nerd Font', serif;
+}
+
+#another-id{
+    background-color: #6cef75;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: serif, '0xProto Nerd Font';
+}
