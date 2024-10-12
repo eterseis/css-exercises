@@ -27,3 +27,65 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* My solution */
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  margin-bottom: 18px;
+}
+
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.wrapper{
+  display: flex;
+  flex: 1;
+}
+
+.sidebar{
+  flex: 1 0 300px;
+  display: flex;
+  padding: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 48px;
+}
+
+.card{
+  width: 300px;
+  height: auto;
+  padding: 16px;
+}
